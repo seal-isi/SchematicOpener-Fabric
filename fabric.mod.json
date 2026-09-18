@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "id": "schematiicopener",
+  "version": "${version}",
+  "name": "Schematic Opener",
+  "description": "Opens the Minecraft schematics folder from the pause menu or a keybind.",
+  "authors": ["Schematic Opener"],
+  "environment": "client",
+  "entrypoints": {
+    "client": ["com.example.schematiicopener.SchematicOpenerClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.19.0",
+    "minecraft": "~26.2",
+    "java": ">=25",
+    "fabric-api": "*"
+  }
+}
